@@ -2,7 +2,7 @@ use clap::{Arg, Command};
 use std::sync::{Arc, Mutex};
 use std::thread;
 mod scan;
-mod converterip;
+mod convert_hn_ip;
 
 fn main() {
 println!("======================================");
@@ -46,7 +46,7 @@ println!("======================================");
     }
 
     if let Some(hostname) = hostname_opt {
-        match converterip::resolve_hostname(&hostname) {
+        match convert_hn_ip::resolve_hostname(&hostname) {
             Ok(ip_addrs) => {
                 for ip in ip_addrs.iter() {
                     scan_and_print_results(ip.to_string(), port_range.clone());
