@@ -11,7 +11,7 @@ Kscan is a Rust-based scanning tool designed to help you efficiently scan either
 
 1. **Clone the Repository:**
    '''
-   git clone https://github.com/Gurnimit/Kscan.git
+   `git clone https://github.com/Gurnimit/Kscan.git`
    cd Kscan
    '''
 3. **Additional Installation**
