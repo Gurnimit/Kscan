@@ -1,6 +1,6 @@
 # Kscan
 
-Kscan is a Rust-based scanning tool designed to help you efficiently scan either by ip , hostname or both . 
+Kscan is a Rust-based scanning tool designed to help you efficiently scan either by IP address, hostname, or both. Whether you're a network administrator, security enthusiast, or developer, Kscan offers a reliable and customizable solution for your scanning needs.
 
 ## Features <br/>
 - Efficient scanning <br/>
