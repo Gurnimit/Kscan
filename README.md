@@ -3,10 +3,13 @@
 Kscan is a Rust-based scanning tool designed to help you efficiently scan either by IP address, hostname, or both. Whether you're a network administrator, security enthusiast, or developer, Kscan offers a reliable and customizable solution for your scanning needs.
 
 ## Features <br/>
-- Efficient scanning <br/>
-- Easy to use <br/>
-- Built with Rust <br/>
-
+~ IP and Hostname Scanning: Scan a range of TCP ports on a specified IP address or hostname. <br/>
+~ Concurrent Scanning: Leverage multi-threading to perform fast, concurrent scans. <br/>
+~ Service Detection: Identify open services and their versions on targeted ports. <br/>
+~ Customizable Port Range: Specify any range of ports to scan (e.g., 20-80). <br/>
+~ Host Resolution: Automatically resolve hostnames to their corresponding IP addresses. <br/>
+~ User-Friendly Command-Line Interface: Simple and intuitive command-line interface with clap for argument parsing. <br/>
+~ Comprehensive Results: Detailed output showing port state, service, and version information. <br/>
 ## Installation
 
 1. **Clone the Repository:** <br/>
