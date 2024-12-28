@@ -13,7 +13,6 @@ Kscan is a Rust-based scanning tool designed to help you efficiently scan either
    `git clone https://github.com/Gurnimit/Kscan.git`
    `cd Kscan`
 3. **Additional Installation**
-   `Box`
    `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
    `source $HOME/.cargo/env`
    `rustup update stable`
@@ -21,7 +20,7 @@ Kscan is a Rust-based scanning tool designed to help you efficiently scan either
    `sudo chmod -R u+rwX /home/<your device name>/Kscan`
    `cargo clean`
    `cargo build --release`
-5. **Way to Use**
+4. **Way to Use**
    `cargo run -- --hostname <hostname> --ports <rang of ports(00-00)>`
    `cargo run -- --ip <ip> --ports <rang of ports(00-00)>`
    `cargo run -- --ip <ip> --hostname <hostname> --ports <rang of ports(00-00)>`
